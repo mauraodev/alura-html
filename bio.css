@@ -45,13 +45,18 @@ blockquote {
 aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
+    text-align: center;
 }
 
 aside a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
-    font-size: 30px;
+    font-size: 16px;
     padding: 25px;
+}
+
+aside li {
+    display: inline-block;
 }
 
 nav a {
