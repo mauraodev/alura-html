@@ -16,3 +16,18 @@ h1 {
 p {
     text-align: justify;
 }
+
+article {
+	border-bottom: 1px solid #ccc;
+}
+
+.navegacao-site {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 20px;
+    text-align: center;
+}
+
+.icones-sociais li {
+    display: inline-block;
+}
