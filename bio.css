@@ -27,6 +27,7 @@ h2 {
 main {
     width: 85%;
     float: left;
+    padding-bottom: 20px;
 }
 
 main a {
@@ -36,7 +37,7 @@ main a {
 main div {
     width: 720px;
     margin: auto;
-    padding: 30px 0;
+    padding: 30px 0;    
 }
 
 p {
@@ -67,9 +68,11 @@ p {
     background-color: #3C1D3D;
     color: #F2FFFC;
     text-align: center;
+    position: relative;
+    top: 310px;
 }
 
-.navegacao a {
+.navegacao nav a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
     font-size: 16px;
@@ -86,7 +89,12 @@ p {
     border-left: 10px solid black;
     border-bottom: 10px solid black;
     float: right;
-    width: 15%;
+}
+
+.minha-foto {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 nav a {
@@ -97,6 +105,9 @@ footer {
 	background-color: #000;
 	color: #F2FFFC;
     clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .social-rodape {
