@@ -125,3 +125,20 @@ strong {
 em {
     font-style: italic;
 }
+
+.item-portfolio {
+    background-color: #fff;
+    width: 45%;
+    border: 5px solid #000;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+}
+
+.item-portfolio img {
+    margin: 0 auto;
+}
+
+.item-portfolio figcaption {
+    text-align: left;
+}
